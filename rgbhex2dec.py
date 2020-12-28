@@ -47,7 +47,7 @@ def readAndConvertValues(src, decoder, dest, encoder):
 		b = decoder(b/255)
 		a = a/255
 
-		print('%.8f %.8f %.8f %.8f'%(encoder(r), encoder(g), encoder(b), a))
+		print('%.8e %.8e %.8e %.8e'%(encoder(r), encoder(g), encoder(b), a))
 	pass
 
 def main(argv):
